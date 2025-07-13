@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="trailer">Trailer</string>
+    <string name="description">Description</string>
+
+    <string name="description_text">
+        Immerse yourself in the chilling world of Trojan with this exclusive gameplay preview.\n\n
+        Experience the tension of navigating a  high-tech, claustrophobic facility, where  stealth and puzzle-solving are your only allies. As alone engineer, guided by a cryptic voice, you must outwit security cameras and petrol bots to escape.\n\n
+        This preview showcases the games unique atmosphere, defined by its striking color palette of purple, dark shades and red, designed to heighten your sense of isolation and suspense.
+
+<!--  The primary objective is to entice potential players to download the game by showcasing its core gameplay and atmosphere in a short video description.-->
+        <!--  The description should highlight the game's unique features and create a sense of intrigue.-->
+<!--        Immerse yourself in the chilling world of Trojan with this exclusive gameplay preview.-->
+<!--        Experience the tension of navigating a  high-tech, claustrophobic facility, where  stealth and puzzle-solving are your only allies. As alone engineer, guided by a cryptic voice, you must outwit security cameras and petrol bots to escape.-->
+<!--        This preview showcases the game's unique atmosphere, defined by its striking color palette of purple, dark shades, and red, designed to heighten your sense of isolation and suspense.-->
+
+    </string>
+
+    <string name="gameplay_visuals">Gameplay visuals</string>
+    <string name="pre_order_now">Pre-order now !</string>
+
+    <string name="footer_item1">Phone specialists</string>
+    <string name="footer_item2">Designers</string>
+    <string name="footer_item3">Developers</string>
+    <string name="footer_item4">Advice</string>
+
+    <string name="email">your-email@gmail.com</string>
+
+    <string name="contact_us">Contact us</string>
+
+    <string name="copyright">Copyright 2025 </string>
+
+
+    <string name="logo">logo</string>
+
+    <string name="menu">menu</string>
+
+
+    <string name="faq">FAQ</string>
+
+    <string name="about_game">About game</string>
+
+    <string name="game_location">Game location</string>
+
+    <string name="gameplay_videos">Gameplay videos</string>
+
+</resources>
