@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">App</string>
+        <string name="age_rating">16+</string>
+        <string name="release_date">Release date: 6 august 2025</string>
+    <string name="trailer">Trailer</string>
+    <string name="description">Description</string>
+
+    <string name="genre">Genre : Sci-Fi</string>
+    <string name="platform">Platform : PC</string>
+    <string name="description_text"> Trapped in a high-tech facility, an isolated engineer must escape the AI deception in this escape room game.
+    </string>
+
+    <string name="gameplay_visuals">Gameplay visuals</string>
+    <string name="pre_order_now">Pre-order now !</string>
+
+    <string name="footer_item1">Phone specialists</string>
+    <string name="footer_item2">Designers</string>
+    <string name="footer_item3">Developers</string>
+    <string name="footer_item4">Advice</string>
+
+    <string name="email">your-email@gmail.com</string>
+
+    <string name="contact_us">Contact us</string>
+
+    <string name="copyright">Copyright 2025 </string>
+
+
+    <string name="logo">logo </string>
+
+    <string name="menu">menu </string>
+
+
+    <string name="faq">FAQ </string>
+
+    <string name="about_game">About game </string>
+
+    <string name="game_location">Game location </string>
+
+    <string name="gameplay_videos">Gameplay videos </string>
+
+</resources>
