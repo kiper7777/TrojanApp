@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_turquoise">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Logo and Title -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo_project_trojan"
+            android:contentDescription="@string/logo"
+            android:layout_gravity="start"
+            android:layout_marginStart="-10dp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:text="@string/title2"
+            android:textStyle="bold" />
+
+        <!-- Poster Row 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:paddingHorizontal="40dp"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/game_location"
+                android:src="@drawable/location_one"
+                android:layout_width="307dp"
+                android:layout_height="212dp"
+                android:layout_weight="1"
+                android:layout_marginTop="-100dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/game_poster_1_description" />
+
+            <ImageView
+                android:id="@+id/location_two"
+                android:src="@drawable/location_two"
+                android:layout_width="290dp"
+                android:layout_height="241dp"
+                android:layout_weight="1"
+                android:layout_marginTop="130dp"
+                android:layout_marginStart="-340dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/game_poster_1_description" />
+        </LinearLayout>
+
+        <!-- Poster Row 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="40dp"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/location_three"
+                android:src="@drawable/location_three"
+                android:layout_width="1105dp"
+                android:layout_height="212dp"
+                android:layout_weight="1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/game_poster_1_description" />
+        </LinearLayout>
+
+        <!-- Description Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:text="@string/description" />
+
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/description_text3"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:padding="16dp" />
+
+        <!-- Footer Section -->
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:background="#1E1E1E"
+            android:padding="20dp">
+
+            <!-- Contact Us Title -->
+            <TextView
+                android:id="@+id/contact_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_us"
+                android:textStyle="bold"
+                android:textColor="@color/dark_turquoise"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Email Row -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/email_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="@string/email"
+                    android:src="@drawable/email_icon" />
+
+                <TextView
+                    android:id="@+id/email_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/email_icon"
+                    android:layout_toEndOf="@id/email_icon"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/email"
+                    android:textColor="@color/dark_turquoise"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <!-- Footer Items -->
+            <TextView
+                android:id="@+id/footer_item1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="280dp"
+                android:text="@string/footer_item1"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/footer_item2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="280dp"
+                android:text="@string/footer_item2"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/footer_item3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="280dp"
+                android:text="@string/footer_item3"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/footer_item4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="280dp"
+                android:text="@string/footer_item4"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+            <!-- Copyright -->
+            <TextView
+                android:id="@+id/footer_copyright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/copyright"
+                android:textColor="@color/white"
+                android:layout_marginStart="20dp"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_turquoise"
+    android:layout_marginTop="0dp"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!--Logo -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="-16dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logo_project_trojan" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/gameplayTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gameplay_video"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/logo"
+            android:layout_marginTop="20dp" />
+
+        <!-- Video FrameLayout -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp">
+
+            <VideoView
+                android:id="@+id/videoview1"
+                android:layout_width="380dp"
+                android:layout_height="210dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/videopreview1"
+                android:layout_width="380dp"
+                android:layout_height="210dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/videopreview1"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/gameplay_video" />
+        </FrameLayout>
+
+        <!-- Description header -->
+        <TextView
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <!-- Description paragraphs -->
+        <TextView
+            android:id="@+id/description_text_part1"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gameplay_videos_description_part3"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/description_text_part2"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gameplay_videos_description_part2"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/description_text_part4"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gameplay_videos_description_part5"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/description_text_part5"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gameplay_videos_description_part4"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Footer Section -->
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:background="#1E1E1E"
+            android:padding="20dp">
+
+            <!-- Contact Us Title -->
+            <TextView
+                android:id="@+id/contact_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_us"
+                android:textStyle="bold"
+                android:textColor="@color/dark_turquoise"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Email Row -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/email_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="@string/email"
+                    android:src="@drawable/email_icon" />
+
+                <TextView
+                    android:id="@+id/email_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/email_icon"
+                    android:layout_toEndOf="@id/email_icon"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/email"
+                    android:textColor="@color/dark_turquoise"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <!-- Footer Items -->
+            <TextView
+                android:id="@+id/footer_item1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="280dp"
+                android:text="@string/footer_item1"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/footer_item2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="280dp"
+                android:text="@string/footer_item2"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/footer_item3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="280dp"
+                android:text="@string/footer_item3"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/footer_item4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="280dp"
+                android:text="@string/footer_item4"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+
+            <!-- Copyright -->
+            <TextView
+                android:id="@+id/footer_copyright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:text="@string/copyright"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
